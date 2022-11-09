@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+:root {
+	--gray-100: #1a1919e8;
+  --gray-200: #3f3e3ee8;
+  --white-100: #fff;
+  --purple-100:  rgb(152, 35, 242);
+}
