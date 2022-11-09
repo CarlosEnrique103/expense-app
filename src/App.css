@@ -1,4 +1,5 @@
 .App {
+  width: 720px;
   background-color: var(--gray-200);
-  padding: 20px 5px ;
+  padding: 20px 10px ;
 }

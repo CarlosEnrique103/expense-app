@@ -5,7 +5,7 @@ const Expenses = ({ expenses }) => {
 	return (
 		<div>
 			{expenses.map((expense) => (
-				<ExpenseItem {...expense} key={expense.text} />
+				<ExpenseItem {...expense} key={expense.id} />
 			))}
 		</div>
 	);

@@ -1,0 +1,6 @@
+.expense-new {
+  background-color: var( --purple-200);
+  margin-bottom: 20px;
+  padding: 10px;
+  color: var(--white-100);
+}
