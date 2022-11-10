@@ -30,28 +30,10 @@
   border-color: inherit;
 }
 
-.expense-form__button__container {
+.expense-form__buttons__container {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
   margin-top: 20px;
   gap: 10px;
-}
-
-.expense-form__button__container button {
-  display: block;
-  border: 2px solid var(--white-100);
-  padding: 15px 10px;
-  width: 150px;
-  border-radius: 10px;
-  color: var(--white-100);
-  background-color: var(--purple-100);
-  cursor: pointer;
-  font-size: 16px;
-
-}
-.expense-form__button__container button:hover {
-  display: block;
-  color: var(--white-100);
-  background-color: var(--purple-300);
 }

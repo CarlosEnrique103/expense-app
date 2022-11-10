@@ -2,6 +2,7 @@ import ExpenseForm from "./ExpenseForm";
 import Card from "./../UI/Card";
 import "./style.css";
 import { useState } from "react";
+import Button from "../UI/Button";
 
 const NewExpense = ({ onSaveExpense }) => {
 	const [isEditing, setIsEditing] = useState(false);
@@ -18,7 +19,7 @@ const NewExpense = ({ onSaveExpense }) => {
 			{isEditing && <h2>Nuevo gasto</h2>}
 			{!isEditing && (
 				<div className='expense-new__button'>
-					<button onClick={toggleEditingHandler}>Añadir</button>
+					<Button onClick={toggleEditingHandler}>Añadir</Button>
 				</div>
 			)}
 			{isEditing && (

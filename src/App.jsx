@@ -8,22 +8,39 @@ import Card from "./components/UI/Card";
 const INITIAL_STATE = [
 	{
 		id: Math.random().toString(),
-		description: "Pagar la luz",
+		description: "Compra de libros.",
+		expense: 100.0,
+		date: new Date("2020-10-01"),
+	},
+	{
+		id: Math.random().toString(),
+		description: "Pago de mensualidad de estudios.",
+		expense: 80.0,
+		date: new Date("2020-09-01"),
+	},
+	{
+		id: Math.random().toString(),
+		description: "Compras de ropa",
 		expense: 100.0,
 		date: new Date("2021-11-01"),
 	},
-
 	{
 		id: Math.random().toString(),
-		description: "Pagar el internet",
+		description: "Pagos de servicicios.",
 		expense: 80.0,
-		date: new Date("2021-11-01"),
+		date: new Date("2021-10-01"),
 	},
 	{
 		id: Math.random().toString(),
-		description: "Pagar el agua",
+		description: "Pago de curso de javaScript.",
 		expense: 56.0,
-		date: new Date("2021-11-01"),
+		date: new Date("2022-11-01"),
+	},
+	{
+		id: Math.random().toString(),
+		description: "Pago de curso de inglés.",
+		expense: 56.0,
+		date: new Date("2022-11-01"),
 	},
 ];
 

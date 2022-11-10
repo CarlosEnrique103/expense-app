@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./../../UI/Button";
 import "./style.css";
 const ExpenseForm = ({ onGetExpenseData, onCancelEditing }) => {
 	const [expenseData, setExpenseData] = useState({
@@ -26,6 +27,7 @@ const ExpenseForm = ({ onGetExpenseData, onCancelEditing }) => {
 			expense: "",
 			date: "",
 		});
+		onCancelEditing();
 	};
 
 	return (
@@ -68,11 +70,11 @@ const ExpenseForm = ({ onGetExpenseData, onCancelEditing }) => {
 					/>
 				</div>
 			</div>
-			<div className='expense-form__button__container'>
-				<button type='button' onClick={onCancelEditing}>
+			<div className='expense-form__buttons__container'>
+				<Button onClick={onCancelEditing} type='button'>
 					Cancelar
-				</button>
-				<button type='submit'>Añadir</button>
+				</Button>
+				<Button type='submit'>Añadir</Button>
 			</div>
 		</form>
 	);
