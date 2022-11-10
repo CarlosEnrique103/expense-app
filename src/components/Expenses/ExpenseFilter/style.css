@@ -1,0 +1,18 @@
+.expense-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.expense-filter h2 {
+  color: var(--white-100);
+  
+}
+
+.expense-filter__options select {
+  font-weight: 700; 
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+}

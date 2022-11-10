@@ -60,7 +60,7 @@ const ExpenseForm = ({ onGetExpenseData }) => {
 						type='date'
 						id='date'
 						name='date'
-						min='2021-01-01'
+						min='2020-01-01'
 						max='2022-12-31'
 						onChange={inputChangeHandler}
 						value={expenseData.date}
