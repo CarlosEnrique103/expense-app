@@ -9,6 +9,7 @@
   padding: 10px 15px;
   gap: 5px;
   font-weight: 100;
+  width: 100px;
 }
 
 .expense-date__month {

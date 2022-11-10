@@ -34,13 +34,15 @@
   display: flex;
   justify-content: flex-end;
   padding: 10px;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .expense-form__button__container button {
   display: block;
   border: 2px solid var(--white-100);
   padding: 15px 10px;
-  width: 200px;
+  width: 150px;
   border-radius: 10px;
   color: var(--white-100);
   background-color: var(--purple-100);

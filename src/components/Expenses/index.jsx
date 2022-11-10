@@ -1,21 +1,19 @@
 import { useState } from "react";
-import ExpenseFilter from "../ExpenseFilter";
-import ExpenseItem from "../ExpenseItem";
-import ExpenseList from "../ExpenseList";
-import "./styles.css";
+import ExpenseFilter from "./ExpenseFilter";
+import ExpenseList from "./ExpenseList";
+
+const currentYear = new Date().getFullYear().toString();
 
 const Expenses = ({ expenses }) => {
-	const [selectedYear, setSelectedYear] = useState("2021");
+	const [selectedYear, setSelectedYear] = useState(currentYear);
 
 	const getFilterYearHandler = (year) => {
 		setSelectedYear(year);
 	};
-	console.log({ expenses });
 
 	const filterExpenses = expenses.filter(
 		(expense) => expense.date.getFullYear().toString() === selectedYear
 	);
-	console.log(filterExpenses);
 
 	return (
 		<div>
